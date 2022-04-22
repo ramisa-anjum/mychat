@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main .leftside{
+    width: 20%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.705)
+}
+.main .middle{
+    width: 55%;
+    height: 100vh;
+   border: 1px solid #000;
+}
+.main .rightside{
+    width: 20%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.705);
+}
+.msgbox{
+    height: 93vh;
+    background: rgba(0, 0, 0, 0.705);
+    padding: 20px;
+    overflow-y: scroll;
+    
+}
+.listgrp{
+    
+    margin: 5px;
+    height: 120px;
+    overflow-y: scroll;
+}
+.friends{
+    padding: 3px;
+    margin: 10px;
+}
+.user{
+    cursor: pointer;
+}
+.imgcard{
+    border-radius: 10px;
+    margin-right: 5px;
+}
+h4{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.listitem{
+    margin: 2px;
+}
+.img{
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 80px;
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.705);
+    margin-left: 60px;
+    height: 30px;
+    width: 120px;
+    color: aliceblue;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-top: 3px;
+    text-align: center;
+}
